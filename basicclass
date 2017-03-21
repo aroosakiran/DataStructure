@@ -1,0 +1,20 @@
+class Person {
+    public Person() {
+        System.out.println("Constructor running!");
+    }
+    
+    public Person(String name) {
+        System.out.println(name);
+    }
+}
+
+public class Application {
+
+    public static void main(String[] args) {
+        
+            System.out.println("Hello World!");
+            
+            Person person = new Person("John");
+    }
+
+}
